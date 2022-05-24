@@ -1,0 +1,26 @@
+.sleeve-slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90%;
+}
+
+.slogan-container h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  font-style: italic;
+  font-family: 'Lobster', cursive;
+}
+
+.slogan-container h1 span {
+  font-size: 120px;
+}
+/*# sourceMappingURL=SleeveSlogan.css.map */
