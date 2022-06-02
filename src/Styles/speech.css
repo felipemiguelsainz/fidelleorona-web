@@ -1,7 +1,6 @@
 .speech {
-  width: 100%;
-  padding: 3% 25%;
-  background-color: #aeaeae;
+  padding: 2% 25%;
+  background-color: #ebebff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,14 +11,22 @@
           justify-content: center;
 }
 
-.speech .container-speech {
-  width: 100%;
-  color: white;
+.speech .icon-container {
+  color: #0C0C22;
   font-size: 30px;
-  text-align: center;
+  margin: 5% 0%;
 }
 
-.speech .container-photo {
+.speech .container-speech {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  color: #0C0C22;
+}
+
+.speech .container-author {
+  margin-top: 5%;
+  color: #343468;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,11 +34,5 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.speech .container-photo img {
-  height: 10vh;
-  margin: 5% 0%;
-  border-radius: 100em;
 }
 /*# sourceMappingURL=speech.css.map */

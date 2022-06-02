@@ -1,84 +1,93 @@
-.Title1 {
-  margin-top: 15%;
-  color: #536942;
+.services .services-header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services .services-header-container .title1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  color: #0C0C22;
   font-size: 2.1em;
   letter-spacing: -1.5px;
   padding-bottom: 2%;
   opacity: 1;
 }
 
-.Line1 {
-  border: 1.3px solid #ffd936;
+.services .services-header-container .line1 {
   width: 20%;
   opacity: 1;
-  background-color: #ffd936;
+  background-color: #0C0C22;
 }
 
-.Cont-Services {
-  padding-bottom: 10%;
+.services .cont-services {
+  padding-bottom: 5%;
 }
 
-.Sub-Cont-Services1 {
+.services .cont-services .sub-cont-services1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.Sub-Cont-Services1 img {
+.services .cont-services .sub-cont-services1 img {
   width: 90%;
   border-radius: 2px;
   margin-top: 12%;
 }
 
-.Sub-Cont-Services1 h3 {
+.services .cont-services .sub-cont-services1 h3 {
   width: 85%;
   margin-top: 10%;
-  color: #536942;
+  color: #0C0C22;
   font-size: 20px;
   text-align: left;
 }
 
-.Sub-Cont-Services1 p {
+.services .cont-services .sub-cont-services1 p {
   width: 85%;
-  color: #7d8e70;
+  color: #0C0C22;
   font-size: 0.950em;
   margin-top: 2%;
   text-align: left;
 }
 
 @media (min-width: 768px) {
-
-  .Title1 {
+  .title1 {
     margin-top: 5%;
   }
-
-  .Line1 {
+  .line1 {
     width: 15%;
   }
-
-  .Cont-Services {
+  .cont-services {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 5%;
   }
 }
 
 @media (min-width: 1440px) {
-
-  .Line1 {
+  .line1 {
     width: 5%;
     margin-top: -1%;
   }
-
-  .Cont-Services {
+  .cont-services {
     width: 60%;
     margin-left: 20%;
     padding-bottom: 3%;
   }
 }
-
-
 /*# sourceMappingURL=Services.css.map */

@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 2% 2%;
+    background-color: #0C0C22;
+    color: white;
+    .item-list-container{
+        .item-list{
+            height: 100%;
+            display: flex;
+            list-style: none;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
