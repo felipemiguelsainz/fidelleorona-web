@@ -1,0 +1,37 @@
+.speech {
+  width: 100%;
+  padding: 3% 25%;
+  background-color: #aeaeae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.speech .container-speech {
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.speech .container-photo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.speech .container-photo img {
+  height: 10vh;
+  margin: 5% 0%;
+  border-radius: 100em;
+}
+/*# sourceMappingURL=speech.css.map */
