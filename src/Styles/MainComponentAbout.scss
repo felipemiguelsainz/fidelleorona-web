@@ -1,0 +1,36 @@
+.maincomponentabout{
+    padding: 3% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .container-main-about{
+        width: 100%;
+        padding: 0% 15%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .container-photo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 65vw;
+            padding: 7% 0% 7%;
+        }
+    }
+    .container-about{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 13px;
+        .container-mision{
+            width: 40%;
+            text-align: center;
+        }
+        .container-valores{
+            width: 40%;
+            text-align: center;
+        }
+    }
+}

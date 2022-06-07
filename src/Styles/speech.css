@@ -1,0 +1,38 @@
+.speech {
+  padding: 2% 25%;
+  background-color: #ebebff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.speech .icon-container {
+  color: #0C0C22;
+  font-size: 30px;
+  margin: 5% 0%;
+}
+
+.speech .container-speech {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  color: #0C0C22;
+}
+
+.speech .container-author {
+  margin-top: 5%;
+  color: #343468;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=speech.css.map */

@@ -1,0 +1,26 @@
+.speech{
+    padding: 2% 25%;
+    background-color:#ebebff;
+    display:flex;
+    flex-wrap: wrap;  
+    justify-content:center;
+    .icon-container{
+        color: #0C0C22;
+        font-size: 30px;
+        margin: 5% 0%;
+    }
+    .container-speech{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        color:#0C0C22;
+    }
+    .container-author{
+        margin-top: 5%;
+        color: #343468;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+}

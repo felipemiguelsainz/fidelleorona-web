@@ -1,0 +1,47 @@
+.aboutus-container {
+  width: 100%;
+  padding: 5% 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutus-container .sideA {
+  width: 50%;
+  text-align: left;
+  margin-right: 15%;
+}
+
+.aboutus-container .sideA div {
+  margin: 5% 0%;
+}
+
+.aboutus-container .sideA .subtitle {
+  font-size: 14px;
+}
+
+.aboutus-container .sideA .title {
+  font-size: 32px;
+}
+
+.aboutus-container .sideA .text {
+  font-size: 16px;
+}
+
+.aboutus-container .sideA .button-container button {
+  padding: 2%;
+  border-radius: 5px;
+  border: 1px solid #0C0C22;
+  background-color: white;
+}
+
+.aboutus-container .sideB {
+  width: 40%;
+}
+/*# sourceMappingURL=AboutUsHome.css.map */

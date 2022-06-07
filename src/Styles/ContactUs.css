@@ -1,0 +1,46 @@
+.container-contact-us {
+  background-color: red;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("https://www.aviatur.com/source/redes/las-mejores-playas-del-caribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 0%;
+}
+
+.container-contact-us .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40%;
+  padding: 3% 1%;
+  line-height: 180%;
+}
+
+.container-contact-us .contact-us .title-contact-us {
+  font-size: 75px;
+}
+
+.container-contact-us .contact-us .text-contact-us {
+  font-size: 15px;
+}
+
+.container-contact-us .contact-us button {
+  border: none;
+  background-color: #084AF3;
+  color: white;
+  padding: 2% 6%;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=ContactUs.css.map */
