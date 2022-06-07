@@ -1,0 +1,35 @@
+.component-slider{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: grab;
+    .children-slider{
+        background-color: white;
+        border-radius: 10px;
+        width: 80%;
+        padding: 5%;
+        margin-bottom: 3%;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.2);
+        .img-container{
+            text-align: center;
+            .img-component{
+                width: 100%;
+            }
+        }
+        .text-container{
+            margin-top: 5%;
+        }
+    }
+}
+.container-slider{
+    width: 100%;
+    background-color: #EBEBFF;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    h3{
+        text-align: center;
+        margin-bottom: 3%;
+    }
+}

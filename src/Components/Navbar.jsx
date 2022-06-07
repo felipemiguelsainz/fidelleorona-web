@@ -1,28 +1,39 @@
-import '../Styles/Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom'
+import { useRef, useState } from 'react';
+import { faWhatsapp, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import '../Styles/Navbar.css';
 
-function Navbar() {
+function NavbarCollapse() {
+    const NavRef = useRef();
+    const showNavBar = () => {
+        NavRef.current.classList.toggle('responsive-nav');
+    }
+
     return (
-        <nav class="navbar navbar-expand-lg static-top navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="/">
-                    <img src="http://fidelleorona.com/assets/img/global/logo.svg" alt="..." height="50" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <>
+            <header>
+                <div className='title'><img className='logo-nav' src="http://fidelleorona.com/assets/img/global/logo.svg" alt="..."/></div>
+                <nav ref={NavRef}>
+                    <Link className='link' to='/'>Home</Link>
+                    <Link className='link' to='/about'>About</Link>
+                    <div className='social'>
+                        <FontAwesomeIcon icon={faWhatsapp}/>
+                        <FontAwesomeIcon icon={faLinkedin}/>
+                        <FontAwesomeIcon icon={faPhone}/>
+                    </div>
+                    <button className='nav-btn nav-close-btn' onClick={() => showNavBar()}>
+                        <FontAwesomeIcon icon={faTimes}/>
+                    </button>
+                </nav>
+                <button className='nav-btn' onClick={() => showNavBar()}>
+                    <FontAwesomeIcon icon={faBars}/>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto item-list">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">About us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            </header>
+        </>
     )
 }
 
-export default Navbar;
+export default NavbarCollapse;

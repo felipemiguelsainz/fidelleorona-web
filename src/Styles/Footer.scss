@@ -2,9 +2,10 @@ footer{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    padding: 2% 2%;
+    padding: 4% 2%;
     background-color: #0C0C22;
     color: white;
+    overflow: hidden;
     .item-list-container{
         .item-list{
             height: 100%;
@@ -12,6 +13,11 @@ footer{
             list-style: none;
             align-items: center;
             gap: 20px;
+        }
+    }
+    .logo-container{
+        .logo-footer{
+            width: 20vh;
         }
     }
 }

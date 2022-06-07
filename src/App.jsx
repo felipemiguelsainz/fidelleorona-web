@@ -1,27 +1,21 @@
-import Navbar from "../src/Components/Navbar";
-import SleeveSlogan from './Components/SleeveSlogan';
-import Services from './Components/Services';
-import Speech from "./Components/Speech";
-import AboutUsHome from "./Components/AboutUsHome";
-import Contact from "./Components/Contact";
+import Navbar from '../src/Components/Navbar';
+import Home from  './Pages/Home';
+import About from './Pages/About';
 import Footer from './Components/Footer';
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import '../src/Styles/TopSleeve.css';
 
 
 function App() {
-  let grey = "B8B8B8"
   return (
-    <>
-    <div className="top-sleeve-background">
+    <BrowserRouter>
       <Navbar/>
-      <SleeveSlogan/>
-    </div>
-      <Services/>
-      <Speech/>
-      <AboutUsHome/>
-      <Contact/>
+      <Routes>
+          <Route index element={<Home/>}/>
+          <Route path='about' element={<About/>}/>
+      </Routes>
       <Footer/>
-    </>
+    </BrowserRouter>
   );
 }
 

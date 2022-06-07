@@ -1,7 +1,80 @@
-nav{
-    background-color: rgba(65, 65, 65, 0);
-    color: black;
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 10vw;
+    background-color: #0C0C22;
+    color: white;
+    .title{
+        width: 80%;
+        .logo-nav{
+            height: 3vw;
+        }
+    }
+    nav {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20%;
+        .link {
+            text-decoration: none;
+            color: white;
+            transition: 0.5s;
+        }
+        .link:hover{
+            color: rgb(148, 148, 148);
+            transition: 0.5s;
+        }
+        .social{
+            display: flex;
+            gap: 50%;
+            *{
+                height: 2.2vh;
+            }
+        }
+    }
+
+    .nav-btn {
+        padding: 5px;
+        cursor: pointer;
+        color: white;
+        background: transparent;
+        border: none;
+        visibility: hidden;
+        outline: none;
+        opacity: 0;
+    }
 }
-.nav-link{
-    color: #0C0C22;
+
+@media (max-width: 1024px) {
+    header {
+        .nav-btn {
+            visibility: visible;
+            opacity: 1;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #0C0C22;
+            transition: 1s;
+            transform: translateY(-100vh);
+            .nav-close-btn {
+                position: absolute;
+                top: 2rem;
+                right: 2rem;
+            }
+        }
+        .responsive-nav {
+            transform: none;
+        }
+    }
 }

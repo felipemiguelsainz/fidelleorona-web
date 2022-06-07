@@ -7,9 +7,10 @@ footer {
           align-items: baseline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 2% 2%;
+  padding: 4% 2%;
   background-color: #0C0C22;
   color: white;
+  overflow: hidden;
 }
 
 footer .item-list-container .item-list {
@@ -22,5 +23,9 @@ footer .item-list-container .item-list {
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
+}
+
+footer .logo-container .logo-footer {
+  width: 20vh;
 }
 /*# sourceMappingURL=Footer.css.map */
