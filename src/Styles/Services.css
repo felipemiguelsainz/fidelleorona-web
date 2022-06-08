@@ -1,3 +1,7 @@
+.services {
+  font-family: 'Gentium Plus', serif;
+}
+
 .services .services-header-container {
   display: -webkit-box;
   display: -ms-flexbox;

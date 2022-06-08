@@ -1,52 +1,78 @@
-header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2vh 10vw;
-    background-color: #0C0C22;
-    color: white;
-    .title{
-        width: 80%;
-        .logo-nav{
-            height: 3vw;
-        }
-    }
-    nav {
-        width: 20%;
-        height: 100%;
+
+.navbar-container{
+    height: 40vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    header {
+        text-shadow: 0 0 2px rgb(0, 0, 0);
+        width: 100%;
+        height: 8vh;
+        background-color: rgb(255, 255, 255);
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 20%;
-        .link {
-            text-decoration: none;
-            color: white;
-            transition: 0.5s;
-        }
-        .link:hover{
-            color: rgb(148, 148, 148);
-            transition: 0.5s;
-        }
-        .social{
-            display: flex;
-            gap: 50%;
-            *{
-                height: 2.2vh;
+        padding: 2vh 10vw;
+        color: white;
+        .title{
+            width: 80%;
+            .logo-nav{
+                height: 3vw;
             }
         }
-    }
+        nav {
+            width: 20%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20%;
+            .link {
+                text-decoration: none;
+                color: white;
+                transition: 0.5s;
+            }
+            .link:hover{
+                color: rgb(148, 148, 148);
+                transition: 0.5s;
+            }
 
-    .nav-btn {
-        padding: 5px;
-        cursor: pointer;
-        color: white;
-        background: transparent;
-        border: none;
-        visibility: hidden;
-        outline: none;
-        opacity: 0;
+            .social{
+                display: flex;
+                gap: 80%;
+                *{
+                    height: 2.2vh;
+                }
+            }
+        }
+}
+    .phrase-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        h3{
+            text-shadow: 0 0 5px rgb(0, 0, 0);
+            font-family: 'Tiro Devanagari Hindi', serif;
+            font-size: 50px;
+            color: white;
+        }
     }
+}
+
+#2contact-button{
+    border: 2px solid white;
+}
+
+.nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    border: none;
+    visibility: hidden;
+    outline: none;
+    opacity: 0;
 }
 
 @media (max-width: 1024px) {

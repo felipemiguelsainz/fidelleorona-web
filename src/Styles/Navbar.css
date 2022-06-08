@@ -1,5 +1,15 @@
-header {
+.navbar-container {
+  height: 40vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-container header {
+  text-shadow: 0 0 2px black;
   width: 100%;
+  height: 8vh;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,19 +20,18 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2vh 10vw;
-  background-color: #0C0C22;
   color: white;
 }
 
-header .title {
+.navbar-container header .title {
   width: 80%;
 }
 
-header .title .logo-nav {
+.navbar-container header .title .logo-nav {
   height: 3vw;
 }
 
-header nav {
+.navbar-container header nav {
   width: 20%;
   height: 100%;
   display: -webkit-box;
@@ -37,31 +46,55 @@ header nav {
   gap: 20%;
 }
 
-header nav .link {
+.navbar-container header nav .link {
   text-decoration: none;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-header nav .link:hover {
+.navbar-container header nav .link:hover {
   color: #949494;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-header nav .social {
+.navbar-container header nav .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 50%;
+  gap: 80%;
 }
 
-header nav .social * {
+.navbar-container header nav .social * {
   height: 2.2vh;
 }
 
-header .nav-btn {
+.navbar-container .phrase-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60%;
+}
+
+.navbar-container .phrase-container h3 {
+  text-shadow: 0 0 5px black;
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 50px;
+  color: white;
+}
+
+#2contact-button {
+  border: 2px solid white;
+}
+
+.nav-btn {
   padding: 5px;
   cursor: pointer;
   color: white;

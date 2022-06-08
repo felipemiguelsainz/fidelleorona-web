@@ -1,6 +1,7 @@
 .speech{
+    font-family: 'Gentium Plus', serif;
     padding: 2% 25%;
-    background-color:#ebebff;
+    background-color:#B9B4A8;
     display:flex;
     flex-wrap: wrap;  
     justify-content:center;
@@ -14,6 +15,7 @@
         font-size: 30px;
         text-align: center;
         color:#0C0C22;
+        font-weight: 300;
     }
     .container-author{
         margin-top: 5%;

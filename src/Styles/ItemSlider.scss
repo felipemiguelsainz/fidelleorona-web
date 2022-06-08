@@ -1,10 +1,11 @@
 .component-slider{
+    font-family: 'Tiro Telugu', serif;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     cursor: grab;
     .children-slider{
-        background-color: white;
+        background-color: #ffffff;
         border-radius: 10px;
         width: 80%;
         padding: 5%;
@@ -24,10 +25,11 @@
     }
 }
 .container-slider{
+    font-family: 'Tiro Telugu', serif;
+    overflow: hidden;
     width: 100%;
-    background-color: #EBEBFF;
-    padding-top: 3%;
-    padding-bottom: 5%;
+    background-color: #546040;
+    padding: 5% 10%;
     h3{
         text-align: center;
         margin-bottom: 3%;
