@@ -50,7 +50,7 @@ function SliderComponent () {
     };
     return (
         <div className='container-slider'>
-            <h5>| Propiedades</h5>
+            <h4>| Propiedades</h4>
                 <Slider {...settings}>
                     {propertiesList ? propertiesList.map(u => <ItemSlider key={u.id} img={u.img} title={u.title} description={u.description}/>)
                     :
