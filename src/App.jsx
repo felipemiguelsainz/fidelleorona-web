@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route index element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
       </Routes>
       <Footer/>
