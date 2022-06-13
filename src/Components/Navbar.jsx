@@ -1,46 +1,43 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { Link, useLocation } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
-
+import { Navbar, Container } from 'react-bootstrap';
+import React from 'react';
+import '../Styles/Navbar.css';
 function NavbarCollapse() {
-    let location = useLocation()  
+    let location = useLocation()
     const [currentLocation, setCurrentLocation] = useState(location.pathname);
     const [Phrase, setPhrase] = useState();
-    useEffect (() => {
+    useEffect(() => {
         setCurrentLocation(location.pathname)
         if (currentLocation === '/') {
             setPhrase('Bienes Raices por Naturaleza')
-        }else if(currentLocation === '/about') {
+        } else if (currentLocation === '/about') {
             setPhrase('About')
         }
     }, [location.pathname, currentLocation]);
     const NavRef = useRef();
-    const showNavBar = () => {
-        NavRef.current.classList.toggle('responsive-nav');
+    const [isOpen, setIsOpen] = useState(false);
+    if (isOpen === true) {
+        window.onscroll = function () { window.scrollTo(0, 0); };
+    } else if (isOpen === false) {
+        window.onscroll = function () { };
     }
 
     return (
-        <div className='navbar-container'>
-            <header>
-                <div className='title'><img className='logo-nav' src="http://fidelleorona.com/assets/img/global/logo.svg" alt="..."/></div>
-                <nav ref={NavRef}>
-                    <Link className='link' to='/'>Home</Link>
-                    <Link className='link' to='/about'>About</Link>
-                    <LinkScroll to='footer' id='contact-button' className='link'>Contact</LinkScroll>
-                    <button className='nav-btn nav-close-btn' onClick={() => showNavBar()}>
-                        <FontAwesomeIcon icon={faTimes}/>
-                    </button>
-                </nav>
-                <button className='nav-btn' onClick={() => showNavBar()}>
-                    <FontAwesomeIcon icon={faBars}/>
-                </button>
-            </header>
-            <div className='phrase-container'>
-                <h3 className='navbar-phrase'>{Phrase}</h3>
-            </div>
-        </div>
+            <Navbar className='nav-container' expand="md">
+                <Container >
+                    <Navbar.Brand><img src="http://fidelleorona.com/assets/img/global/logo-negro.svg" alt="..." height={50} /></Navbar.Brand>
+                    <Navbar.Toggle id='button-collapse' aria-controls="basic-navbar-nav"/>
+                    <Navbar.Collapse>
+                        <div className='items-container'>
+                            <Link to='/' className='link'>Home</Link>
+                            <Link to='/about' className='link'>About</Link>
+                            <LinkScroll to='contact' className='link'>Contact</LinkScroll>
+                        </div>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
     )
 }
 

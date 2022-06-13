@@ -1,4 +1,5 @@
 .speech{
+    margin: 5% 0%;
     font-family: 'Gentium Plus', serif;
     padding: 2% 25%;
     background-color:#B9B4A8;
@@ -23,6 +24,13 @@
         width: 100%;
         display: flex;
         justify-content: center;
-
+    }
+}
+@media (max-width: 900px) {
+    .speech{
+        padding: 5% 5%;
+        .container-speech{
+            font-size: 20px;
+        }
     }
 }

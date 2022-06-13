@@ -1,16 +1,19 @@
 .aboutus-container {
     font-family: 'Tiro Telugu', serif;
     width: 100%;
-    padding: 5% 20%;
+    padding: 3% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    .side0{
+        display: none;
+    }
     .sideA{
         width: 50%;
         text-align: left;
         margin-right: 15%;
         div{
-            margin: 5% 0%;
+            margin: 0% 0%;
         }
         .subtitle{
             font-size: 14px;
@@ -33,5 +36,40 @@
     }
     .sideB{
         width: 40%;
+        .aboutus-img{
+            width: 100%;
+            min-height: 400px;
+        }
     }
 }
+@media (max-width: 900px) {
+    .aboutus-container{
+        display: flex;
+        margin: 8% 0%;
+        flex-wrap: wrap;
+        .side0{
+            display: inherit;
+            width: 90%;
+            .aboutus-img-0{
+                width: 100%;
+            }
+        }
+        .sideA{
+            margin: 3% 5%;
+            width: 100%;
+            .subtitle{
+                font-size: 12px;
+            }
+            .title{
+                font-size: 24px;
+            }
+            .text{
+                font-size: 14px;
+            }
+        }
+
+        }
+        .sideB{
+            display: none;
+        }
+    }

@@ -3,7 +3,7 @@ import Home from  './Pages/Home';
 import About from './Pages/About';
 import Footer from './Components/Footer';
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
-import '../src/Styles/TopSleeve.css';
+import '../src/App.css'
 
 
 function App() {

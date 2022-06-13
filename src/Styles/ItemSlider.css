@@ -1,4 +1,5 @@
 .component-slider {
+  z-index: 10;
   font-family: 'Tiro Telugu', serif;
   border-radius: 10px;
   display: -webkit-box;
@@ -35,15 +36,36 @@
 }
 
 .container-slider {
+  margin-top: 5%;
   font-family: 'Tiro Telugu', serif;
   overflow: hidden;
   width: 100%;
   background-color: #546040;
-  padding: 5% 10%;
+  padding: 7% 10%;
 }
 
 .container-slider h3 {
-  text-align: center;
+  text-align: left;
+  margin-left: 4%;
   margin-bottom: 3%;
+}
+
+@media (max-width: 767px) {
+  .container-slider {
+    padding: 10% 10%;
+  }
+  .container-slider h3 {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .component-slider .children-slider {
+    width: 95%;
+  }
+  .text-container h5 {
+    font-size: 18px;
+  }
+  .text-container p {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=ItemSlider.css.map */
