@@ -31,7 +31,7 @@ function NavbarCollapse() {
                     <Navbar.Toggle id='button-collapse' aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse>
                         <div className='items-container'>
-                            <Link to='/' className='link'>Home</Link>
+                            <Link to='/fidelleorona-web/' className='link'>Home</Link>
                             <Link to='/about' className='link'>About</Link>
                             <LinkScroll to='contact' className='link'>Contact</LinkScroll>
                         </div>
