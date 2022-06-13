@@ -46,11 +46,11 @@ function SliderComponent () {
         slidesToShow: slides,
         slidesToScroll: slides,
         autoplay: true,
-        autoplaySpeed : 2500
+        autoplaySpeed : 4500
     };
     return (
         <div className='container-slider'>
-            <h3>| Propiedades</h3>
+            <h5>| Propiedades</h3>
                 <Slider {...settings}>
                     {propertiesList ? propertiesList.map(u => <ItemSlider key={u.id} img={u.img} title={u.title} description={u.description}/>)
                     :
