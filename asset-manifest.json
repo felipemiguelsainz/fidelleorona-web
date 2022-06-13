@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fidelleorona-web/static/css/main.befe0e87.css",
-    "main.js": "/fidelleorona-web/static/js/main.a36f4293.js",
+    "main.js": "/fidelleorona-web/static/js/main.3130a20a.js",
     "static/js/787.e1099a83.chunk.js": "/fidelleorona-web/static/js/787.e1099a83.chunk.js",
     "static/media/cabra.jpeg": "/fidelleorona-web/static/media/cabra.d6175ef3079abd5480c4.jpeg",
     "static/media/slick.svg": "/fidelleorona-web/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "index.html": "/fidelleorona-web/index.html",
     "static/media/slick.woff": "/fidelleorona-web/static/media/slick.295183786cd8a1389865.woff",
     "main.befe0e87.css.map": "/fidelleorona-web/static/css/main.befe0e87.css.map",
-    "main.a36f4293.js.map": "/fidelleorona-web/static/js/main.a36f4293.js.map",
+    "main.3130a20a.js.map": "/fidelleorona-web/static/js/main.3130a20a.js.map",
     "787.e1099a83.chunk.js.map": "/fidelleorona-web/static/js/787.e1099a83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.befe0e87.css",
-    "static/js/main.a36f4293.js"
+    "static/js/main.3130a20a.js"
   ]
 }
