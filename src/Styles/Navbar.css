@@ -28,6 +28,8 @@
   transition: 1s;
   border-radius: 4px;
   padding: 1% 2%;
+  font-family: 'Gentium Plus', serif;
+  font-size: 20px;
 }
 
 .items-container *:hover {
