@@ -31,6 +31,13 @@
                 border-radius: 5px;
                 border: 1px solid #0C0C22;
                 background-color: white;
+                transition: 1s;
+            }
+
+            button:hover{
+                color: white;
+                background-color: #696969;
+                transition: 1s;
             }
         }
     }
@@ -39,6 +46,7 @@
         .aboutus-img{
             width: 100%;
             min-height: 400px;
+            border-radius: 10px;
         }
     }
 }

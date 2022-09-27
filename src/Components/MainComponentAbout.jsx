@@ -1,16 +1,15 @@
 import "../Styles/MainComponentAbout.css"
+
 function MainComponentAbout (){
     return(
         <div className="maincomponentabout">
             <div className="container-main-about">
-            Somos un equipo altamente colaborativo y de apoyo,
-            que se une en cada proyecto para garantizar que nuestros clientes obtengan el mejor resultado.
-            </div>
-            <div className="container-photo">
-                <img src={require('../img/cabra.jpeg')} alt="cabra" />
+            <p>Somos un equipo altamente colaborativo y de apoyo,
+            que se une en cada proyecto para garantizar que nuestros clientes obtengan el mejor resultado.</p>
             </div>
             <div className="container-about">
                 <div className="container-mision">
+                    <img src="" alt="" />
                     <h5>Nuestra mision</h5>
                     <div>
                     Construir el mejor producto que cree el mayor valor para nuestros clientes, 
@@ -18,6 +17,7 @@ function MainComponentAbout (){
                     </div>
                 </div>
                 <div className="container-valores">
+                    <img src="" alt="" />
                     <h5>Nuestros valores</h5>
                         <div>
                         Nos esforzamos por ir más allá para nuestros clientes sin importar el desafío. 

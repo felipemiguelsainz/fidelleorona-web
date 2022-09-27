@@ -9,19 +9,19 @@ function Services() {
             </div>
             <div className='cont-services'>
                 <div className='sub-cont-services1'>
-                    <img src='https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-1.jpg' alt="description1"></img>
+                    <img src={require('../img/nordelta.jpg')} alt="description1"></img>
                     <h3>Argentina</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <p>NORDELTA</p>
                 </div>
                 <div className='sub-cont-services1'>
-                    <img src='https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-2.jpg' alt="description2"></img>
+                    <img src={require('../img/garzas.jpg')} alt="description2"></img>
                     <h3>Uruguay</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <p>LAS GARZAS</p>
                 </div>
                 <div className='sub-cont-services1'>
-                    <img src='https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-3.jpg' alt="description3"></img>
+                    <img src={require('../img/oceana.jpg')} alt="description3"></img>
                     <h3>Estados Unidos</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <p>OCEANA BAL HARBOUR</p>
                 </div>
             </div>
         </div>

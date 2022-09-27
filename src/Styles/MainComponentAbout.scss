@@ -7,7 +7,9 @@
         width: 100%;
         padding: 0% 15%;
         text-align: center;
-        font-size: 30px;
+        p{
+            font-size: 25px;
+        }
     }
     .container-photo{
         width: 100%;
@@ -31,6 +33,20 @@
         .container-valores{
             width: 40%;
             text-align: center;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .maincomponentabout{
+        padding: 3% 1%;
+        .container-main-about{
+            width: auto;
+            padding: 0% 5%;
+            text-align: center;
+            p{
+                font-size: 20px;
+            }
         }
     }
 }

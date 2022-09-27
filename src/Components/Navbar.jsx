@@ -1,9 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Link as LinkScroll } from 'react-scroll';
-import { Navbar, Container } from 'react-bootstrap';
-import React from 'react';
 import '../Styles/Navbar.css';
+
+import { Container, Navbar } from 'react-bootstrap';
+import { Link, useLocation } from 'react-router-dom';
+import { useEffect, useRef, useState } from 'react';
+
+import { Link as LinkScroll } from 'react-scroll';
+import React from 'react';
+
 function NavbarCollapse() {
     let location = useLocation()
     const [currentLocation, setCurrentLocation] = useState(location.pathname);
@@ -27,7 +30,7 @@ function NavbarCollapse() {
     return (
             <Navbar className='nav-container' expand="md">
                 <Container >
-                    <Navbar.Brand><img src="http://fidelleorona.com/assets/img/global/logo-negro.svg" alt="..." height={50} /></Navbar.Brand>
+                    <Navbar.Brand><img src="http://fidelleorona.com/assets/img/global/logo-negro.svg" alt="..." height={45} /></Navbar.Brand>
                     <Navbar.Toggle id='button-collapse' aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse>
                         <div className='items-container'>

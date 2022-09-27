@@ -1,4 +1,5 @@
 import '../Styles/AboutUsHome.css'
+
 import { Link } from 'react-router-dom'
 
 function AboutUsHome () {
@@ -19,11 +20,11 @@ function AboutUsHome () {
                         <p>Acompanamos a nuestros clientes para vivir juntos una experiencia única y acorde a sus expectativas, entendiendo que quienes nos eligen valoran especialmente una atención diferencial</p>
                     </div>
                     <div className='button-container'>
-                        <Link to={'/about'}><button>Find Out More</button></Link>
+                        <Link to={'/about'}><button className='button-find'>Find Out More</button></Link>
                     </div>
                 </div>
                 <div className='sideB'>
-                    <img className='aboutus-img' src='https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/leaf.jpg' alt='' />
+                    <img className='aboutus-img' src={require('../img/personalizado.jpg')} alt='' />
                 </div>
             </div>
         </div>

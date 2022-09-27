@@ -1,69 +1,58 @@
 .aboutus-container {
-  font-family: 'Tiro Telugu', serif;
+  font-family: "Tiro Telugu", serif;
   width: 100%;
   padding: 3% 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .aboutus-container .side0 {
   display: none;
 }
-
 .aboutus-container .sideA {
   width: 50%;
   text-align: left;
   margin-right: 15%;
 }
-
 .aboutus-container .sideA div {
   margin: 0% 0%;
 }
-
 .aboutus-container .sideA .subtitle {
   font-size: 14px;
 }
-
 .aboutus-container .sideA .title {
   font-size: 32px;
 }
-
 .aboutus-container .sideA .text {
   font-size: 20px;
 }
-
 .aboutus-container .sideA .button-container button {
   font-size: 15px;
   padding: 2%;
   border-radius: 5px;
   border: 1px solid #0C0C22;
   background-color: white;
+  transition: 1s;
 }
-
+.aboutus-container .sideA .button-container button:hover {
+  color: white;
+  background-color: #696969;
+  transition: 1s;
+}
 .aboutus-container .sideB {
   width: 40%;
 }
-
 .aboutus-container .sideB .aboutus-img {
   width: 100%;
   min-height: 400px;
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
   .aboutus-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 8% 0%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .aboutus-container .side0 {
     display: inherit;
@@ -88,5 +77,4 @@
   .sideB {
     display: none;
   }
-}
-/*# sourceMappingURL=AboutUsHome.css.map */
+}/*# sourceMappingURL=AboutUsHome.css.map */

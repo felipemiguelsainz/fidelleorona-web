@@ -1,70 +1,45 @@
 footer {
   padding: 5% 0%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Gentium Plus", serif;
 }
-
 footer .nav-footer {
   font-size: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 footer .nav-footer * {
   cursor: pointer;
   color: black;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-
 footer .nav-footer *:hover {
   color: gray;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-
 footer .logo-footer-container {
   width: auto;
 }
-
 footer .social-footer {
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   gap: 30%;
   font-size: 40px;
 }
-
 footer .social-footer *:hover {
   color: gray;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 @media (max-width: 900px) {
   footer {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 3% 10%;
   }
   footer .nav-footer {
@@ -84,5 +59,4 @@ footer .social-footer *:hover {
   footer .social-footer * {
     margin: 10% 0%;
   }
-}
-/*# sourceMappingURL=Footer.css.map */
+}/*# sourceMappingURL=Footer.css.map */

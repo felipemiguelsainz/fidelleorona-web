@@ -1,56 +1,52 @@
 .maincomponentabout {
   padding: 3% 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .maincomponentabout .container-main-about {
   width: 100%;
   padding: 0% 15%;
   text-align: center;
-  font-size: 30px;
 }
-
+.maincomponentabout .container-main-about p {
+  font-size: 25px;
+}
 .maincomponentabout .container-photo {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .maincomponentabout .container-photo img {
   width: 65vw;
   padding: 7% 0% 7%;
 }
-
 .maincomponentabout .container-about {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
   font-size: 13px;
 }
-
 .maincomponentabout .container-about .container-mision {
   width: 40%;
   text-align: center;
 }
-
 .maincomponentabout .container-about .container-valores {
   width: 40%;
   text-align: center;
 }
-/*# sourceMappingURL=MainComponentAbout.css.map */
+
+@media (max-width: 600px) {
+  .maincomponentabout {
+    padding: 3% 1%;
+  }
+  .maincomponentabout .container-main-about {
+    width: auto;
+    padding: 0% 5%;
+    text-align: center;
+  }
+  .maincomponentabout .container-main-about p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=MainComponentAbout.css.map */
