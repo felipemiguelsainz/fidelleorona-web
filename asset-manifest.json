@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/fidelleorona-web/static/css/main.20d66634.css",
-    "main.js": "/fidelleorona-web/static/js/main.2cd30ba2.js",
+    "main.css": "/fidelleorona-web/static/css/main.07a8c19e.css",
+    "main.js": "/fidelleorona-web/static/js/main.13a30073.js",
     "static/js/787.e1099a83.chunk.js": "/fidelleorona-web/static/js/787.e1099a83.chunk.js",
-    "static/media/cabra.jpeg": "/fidelleorona-web/static/media/cabra.d6175ef3079abd5480c4.jpeg",
+    "static/media/nordelta.jpg": "/fidelleorona-web/static/media/nordelta.8e5d9822fa24b9461506.jpg",
+    "static/media/personalizado.jpg": "/fidelleorona-web/static/media/personalizado.b44fe366ca60cb2122de.jpg",
+    "static/media/garzas.jpg": "/fidelleorona-web/static/media/garzas.f9bef31d90a5dd48764f.jpg",
+    "static/media/oceana.jpg": "/fidelleorona-web/static/media/oceana.992257db7ad2f197186f.jpg",
     "static/media/slick.svg": "/fidelleorona-web/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/fidelleorona-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/fidelleorona-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/fidelleorona-web/index.html",
     "static/media/slick.woff": "/fidelleorona-web/static/media/slick.295183786cd8a1389865.woff",
-    "main.20d66634.css.map": "/fidelleorona-web/static/css/main.20d66634.css.map",
-    "main.2cd30ba2.js.map": "/fidelleorona-web/static/js/main.2cd30ba2.js.map",
+    "main.07a8c19e.css.map": "/fidelleorona-web/static/css/main.07a8c19e.css.map",
+    "main.13a30073.js.map": "/fidelleorona-web/static/js/main.13a30073.js.map",
     "787.e1099a83.chunk.js.map": "/fidelleorona-web/static/js/787.e1099a83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d66634.css",
-    "static/js/main.2cd30ba2.js"
+    "static/css/main.07a8c19e.css",
+    "static/js/main.13a30073.js"
   ]
 }
