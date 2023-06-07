@@ -46,6 +46,11 @@
   width: 100%;
   min-height: 400px;
   border-radius: 10px;
+  transition: 1s;
+}
+.aboutus-container .sideB .aboutus-img:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 900px) {

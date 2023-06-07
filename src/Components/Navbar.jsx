@@ -6,11 +6,14 @@ import { useEffect, useRef, useState } from 'react';
 
 import { Link as LinkScroll } from 'react-scroll';
 import React from 'react';
+import Modal from './Modal';
+import Contact from './Contact';
 
 function NavbarCollapse() {
     let location = useLocation()
     const [currentLocation, setCurrentLocation] = useState(location.pathname);
     const [Phrase, setPhrase] = useState();
+    const [modalStatus, setModalStatus] = useState(true)
     useEffect(() => {
         setCurrentLocation(location.pathname)
         if (currentLocation === '/') {
@@ -28,19 +31,25 @@ function NavbarCollapse() {
     }
 
     return (
-            <Navbar className='nav-container' expand="md">
-                <Container >
-                    <Navbar.Brand><img src="http://fidelleorona.com/assets/img/global/logo-negro.svg" alt="..." height={45} /></Navbar.Brand>
-                    <Navbar.Toggle id='button-collapse' aria-controls="basic-navbar-nav"/>
-                    <Navbar.Collapse>
-                        <div className='items-container'>
-                            <Link to='/fidelleorona-web/' className='link'>Home</Link>
-                            <Link to='/about' className='link'>About</Link>
-                            <LinkScroll to='contact' className='link'>Contact</LinkScroll>
-                        </div>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+        <div>
+            <div className='main-container-navbar'>
+                <Navbar className='nav-container' expand="md">
+                    <Container >
+                        <Navbar.Brand><img src="http://fidelleorona.com/assets/img/global/logo-negro.svg" alt="..." height={45} /></Navbar.Brand>
+                        <Navbar.Toggle id='button-collapse' aria-controls="basic-navbar-nav"/>
+                        <Navbar.Collapse>
+                            <div className='items-container'>
+                                <Link to='/fidelleorona-web/' className='link'>Home</Link>
+                                <Link to='/about' className='link'>About</Link>
+                                <div onClick={() => setModalStatus(true)} className='link'>Contact</div>
+                            </div>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+                
+            </div>
+            <Modal status={modalStatus} setStatus={setModalStatus}/>
+        </div>
     )
 }
 

@@ -4,7 +4,6 @@
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  cursor: -webkit-grab;
   cursor: grab;
 }
 .component-slider .children-slider {
